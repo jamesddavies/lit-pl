@@ -22,7 +22,7 @@ Make sure you have local-web-server installed:
 npm install -g local-web-server
 ```
 
-To run this app locally, you'll need an [API key from football-data.org](https://www.football-data.org/client/register). Alternatively, you can replace the 'http://localhost:3000?url=' in the API calls in the Fixture and Results components with https://cors-anywhere.herokuapp.com/ (this will limit you to 50 API calls a day).
+To run this app locally, you'll need an [API key from football-data.org](https://www.football-data.org/client/register). Alternatively, you can replace the 'http://localhost:3000?url=' in the API calls in the Fixtures and Results components with https://cors-anywhere.herokuapp.com/ (this will limit you to 50 API calls a day).
 
 Development/Running the app:
 ```javascript
