@@ -10,7 +10,7 @@ const Home = () => html`
             with lit-html.
             <br>
             <br>
-            View this app on <a href='#'>Github</a>.<br>
+            View this app on <a href='https://github.com/jamesddavies/lit-pl'>Github</a>.<br>
             All data in this app is from <a href='https://www.football-data.org'>football-data.org</a>.
         </p>
     </div>
