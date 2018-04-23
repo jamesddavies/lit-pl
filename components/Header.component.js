@@ -2,7 +2,7 @@ import {html} from '../node_modules/lit-html/lit-html.js'
 
 const logo = () => html`
     <a class='lit-route-link' data-to='/'>
-        <img src='img/logo.svg'>
+        <img src='/img/logo.svg'>
     </a>
 `
 

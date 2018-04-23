@@ -18,7 +18,11 @@ const tableContents = () => html`
                                 <div class='team-img'>
                                     <img src='${team.crestURI}'>
                                 </div>
-                                <p>${team.teamName}</p>
+                                <p>
+                                    <a class='lit-route-link' data-to='/team/${team._links.team.href.split('/').slice(-1)}'>
+                                        ${team.teamName}
+                                    </a>
+                                </p>
                             </td>
                             <td>${team.playedGames}</td>
                             <td>${team.wins}</td>

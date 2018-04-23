@@ -203,6 +203,16 @@ h3.fixtures-heading {
     display: inline;
 }
 
+.league-table td.team a {
+    text-decoration: none;
+    transition: all 200ms ease-out;
+}
+
+.league-table td.team a:hover {
+    color: #38003c;
+    opacity: 0.6;
+}
+
 .league-table td.team .team-img {
     width: 24px;
     text-align: center;
