@@ -12,7 +12,7 @@ const Router = () => html`
     ${new Route('/fixtures', () => Fixtures()).mount()}
     ${new Route('/results', () => Results()).mount()}
     ${new Route('/table', () => Table()).mount()}
-    ${new Route('/team/:id', (params) => Team(params)).mount()}
+    ${new Route('/team/:id', (match) => Team(match)).mount()}
 `
 
 export default Router
