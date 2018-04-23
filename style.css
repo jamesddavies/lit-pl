@@ -233,6 +233,74 @@ h3.fixtures-heading {
     vertical-align: middle;
 }
 
+/*** Team ***/
+
+.team-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team-header img {
+    max-height: 150px;
+}
+
+.team-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.team-content > div {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.team-content table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.team-content table tr:nth-child(even){
+    background-color: #eee;
+}
+
+.team-content table td {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+.team-content table .player-name, .team-content table .home-team {
+    text-align: left;
+}
+
+.team-content table .player-position, .team-content table .away-team {
+    text-align: right;
+}
+
+.team-content table .player-name {
+    width: 60%;
+}
+
+.team-content table .player-number {
+    font-weight: bold;
+    color: #38003c;
+}
+
+.team-content table .home-team, .team-content table .away-team {
+    width: 35%;
+}
+
+.team-content table .match-time-date {
+    font-size: 11px;
+    background-color: rgba(0,0,0,0.8);
+    color: #fdfdfd;
+    margin: 4px 0;
+    border-top: 1px solid #eee;
+}
+
 /*** Responsive ***/
 
 @media (max-width: 767px){

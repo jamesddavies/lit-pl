@@ -9,7 +9,6 @@ const tableContents = () => html`
             fetch('http://localhost:3000?url=http://api.football-data.org/v1/competitions/445/leagueTable')
             .then(r => r.json())
             .then(data => {
-                console.log("table")
                 return data.standing.map(team => {
                     return html`
                         <tr>
