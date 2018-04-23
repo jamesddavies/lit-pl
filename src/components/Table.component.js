@@ -1,5 +1,5 @@
-import {html} from '../node_modules/lit-html/lit-html.js'
-import {until} from '../node_modules/lit-html/lib/until.js'
+import {html} from '../../node_modules/lit-html/lit-html.js'
+import {until} from '../../node_modules/lit-html/lib/until.js'
 
 import Loader from './Loader.component.js'
 
