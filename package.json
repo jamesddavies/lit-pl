@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"node server\" \"ws --spa index.html\"",
-    "start": "gulp && npm run dev"
+    "dev": "gulp && concurrently \"node server\" \"ws --spa index.html\"",
+    "start": "npm run dev",
+    "build": "gulp"
   },
   "keywords": [
     "lit-html",
