@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"node server\" \"ws --spa index.html\"",
-    "start": "npm run dev"
+    "start": "gulp && npm run dev"
   },
   "keywords": [
     "lit-html",
@@ -25,9 +25,6 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-gzip": "^1.4.2",
-    "gulp-uglify": "^3.0.0",
-    "gulp-uglify-es": "^1.0.1",
-    "pump": "^3.0.0"
+    "gulp-uglify-es": "^1.0.1"
   }
 }
