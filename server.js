@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
         }
     }
     request(options, (error, response, body) => {
-        return res.json(JSON.parse(body))
+        return body ? res.json(JSON.parse(body)) : ""
     })  
 })
 
